@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const ViewAll = () => {
   return (
     <div>
+        <NavBar/>
         <center><h1><b>Book Details</b></h1></center><br></br>
         <table class="table">
   <thead>
